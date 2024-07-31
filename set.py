@@ -1,0 +1,12 @@
+a={1,2,3,4,5,6}
+b={6,7,8,9,10}
+'''union=seta.union(setb)
+union1=seta.intersection(setb)
+union4=seta.intersection_update(setb)
+union2=seta.difference(setb)
+union3=seta.difference_update(setb)
+print(union1,union,union3,union4)
+set=setb.update(11)
+print(setc)'''
+inter=a.intersection(b)
+print(inter)
